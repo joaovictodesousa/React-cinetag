@@ -9,6 +9,7 @@ function Player() {
   const parametros = useParams();
   const video = videos.find((video) => {
     return video.id === Number(parametros.id);
+    
   });
 
   console.log(video);
