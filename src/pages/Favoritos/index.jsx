@@ -6,6 +6,7 @@ import styles from './Favoritos.module.css';
 
 function Favoritos() {
     const { favorito } = useFavoritoContext();
+    
     return (
         <>
             <Banner imagem='favoritos' />
